@@ -1,0 +1,60 @@
+body{
+    background-color: #0ee2f1;
+}
+#mainNavbar .navbar-brand{
+	color: rgb(49, 28, 234);
+}
+
+#mainNavbar{
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+	color: rgba(26, 11, 236, 0.918);
+}
+
+#mainNavbar .nav-link:hover {
+	color: rgb(66, 28, 234);
+}
+.blurb h2 {
+	color: rgba(31, 15, 241, 0.445);
+	font-weight: 100;
+	font-size: 2.5rem;
+}
+
+.blurb p , .blurb li{
+	color: rgb(13, 14, 13);
+	font-weight: 100;
+	font-size: 1.125rem;
+	line-height: 2;
+}
+
+.content{
+	margin-bottom: 100px;
+}
+#headingGroup h1{
+	font-weight: 100;
+	font-size: 4rem;
+}
+.navbar.scrolled {
+	background-color: rgb(13, 229, 245);
+	transition: background 500ms;
+}
+.card-text{
+	height: 200px;
+	overflow: auto;
+}
+.card-title{
+	color: rgb(28, 42, 234);
+}
+i{
+	font-size: 2em;
+}
+
+@media (max-width: 1200px){
+	#headingGroup h1{
+	font-weight: 100;
+	font-size: 3rem;
+}
+}
